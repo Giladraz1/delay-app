@@ -1,0 +1,8 @@
+[build]
+  command = "ng build --prod"
+  publish = "dist/delay-app" # Replace with the correct publish directory path
+
+[[redirects]]
+  from = "/*"
+  to = "/index.html"
+  status = 200
